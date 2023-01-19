@@ -1,0 +1,263 @@
+.logomarca {
+height: 48px;
+width: 31.085588455200195px;
+left: 44px;
+top: 0px;
+border-radius: 0px;}
+
+
+
+html, body {
+font-family: 'Inter', sans-serif;
+background: #E5E5E5;
+width:100%;
+max-width: 100vw;
+height: 100%;
+}
+
+.logo {
+position: relative;
+width: 30px;
+margin: 40px 0 0 40px;
+}
+
+.caixa {
+background: #FFFFFF;
+position: absolute;
+width: 400px;
+height: 600px;
+left: 800px;
+top: 40;
+right: 40;
+border-radius: 32px;
+margin: -50px 40px 40px 40px;
+box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.inputtexto {
+background: #E5E5E5;
+position: absolute;
+width: 680px;
+height: 288px;
+left: 100px;
+top: 168px;
+border: none;
+font-size: 32px;
+font-family: Inter;
+color: #0A3871;
+resize: none;
+text-transform: lowercase;
+}
+
+.inputtexto:focus {
+box-shadow: 0 0 0 0;
+outline: 0;
+}
+
+.info {
+
+width: 252px;
+height: 18px;
+position: absolute;
+margin: -29px 948px 16px 100px;
+font-size: 12px;
+border: 1px solid #0A3871;
+color: #495057;
+}
+
+.info:before {
+color: #495057;
+margin: 0 8px 0 0;
+content: url('https://api.iconify.design/bi/exclamation-circle-fill.svg');
+}
+
+#boxlupa {
+display: block;
+}
+
+#boxcopy{
+
+display: none;
+position: absolute;
+width: 343px;
+height: 624px;
+left: 16px;
+top: 152px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+color: #0A3871;
+
+}
+
+.inputcopy {     
+
+font-family: 'Inter';
+font-style: normal;
+margin: 24px 24px;
+border: none;
+font-size: 24px;
+color: #495057;
+}
+
+.copiar {
+weight: 680px;
+height: 67px;
+position: absolute;
+width: 341px;
+height: 67px;
+background: #ffffff;
+color: #000000;
+font-size: 16px;
+border-radius: 24px;
+cursor: pointer;
+bottom: 5%;
+left: 8%;
+}
+
+.imagem-caixa {
+position: absolute;
+width: 336px;
+height: 304px;
+left: 50%;
+top: 42%;
+transform: translate(-50%, -50%);
+}
+
+.mensagens {
+text-align: center;
+position: absolute;
+width: 336px;
+height: 122px;
+left: 50%;
+top: 75%;
+transform: translate(-50%, -50%);
+}
+
+p1 {
+color: #343A40;
+position: relative;
+width: 336px;
+height: 58px;
+font-weight: 700;
+font-size: 24px;
+margin: 32px auto 16px auto;
+padding: auto;
+}
+
+.botoes {
+display: flex;
+flex-direction: row;
+weight: 328px;
+height: 67px;
+gap: 8px;
+bottom: 0;
+position: relative;
+margin: 415px 80px 40px 100px;
+
+}
+
+
+.criptografar {
+margin: 0 24px 0 0;
+width: 300px;
+height: 67px;
+background: #0A3871;
+color: #FFFFFF;
+font-size: 16px;
+border-radius: 24px;
+cursor: pointer;
+}
+
+.descriptografar {
+width: 300px;
+height: 67px;
+background: #D8DFE8;
+color: #0A3871;
+font-size: 16px;
+border-radius: 24px;
+cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+body {
+        display: block;
+        justify-content: center;
+}
+
+.logo {
+        width: 10px;
+}
+
+.criptografar {
+        width: 100%;
+        margin: 0 0 20px 0;
+}
+
+.descriptografar {
+        width: 100%;
+}
+
+.paragrafo-botoes {
+        position: relative;
+        top: -170px;
+        margin: auto;
+}
+
+.input-principal {
+        position: relative;
+        top: -190px;
+        width: 80%;
+        left: 8%;
+}
+
+.caixa {
+        
+        position: relative;
+        width: 100%;
+        height: 12rem;
+        left: 0;
+        top: 550px;
+        margin: auto;
+}
+
+.caixa p {
+        padding: 16px 16px;
+}
+
+.mensagens {
+        top: 20%;
+}
+
+p1 {
+        left: -14px;
+}
+
+.imagem-caixa {
+        display: none;
+}
+
+}
+
+footer {
+background-color: #072B61;
+max-width: 100%;
+max-height: 400px;
+width: auto;
+height: auto;
+margin-top: 70px;
+text-align: center;
+
+
+}
+
+.iconsfooter {     
+align-content: center;
+margin-top: 5px;
+
+}
